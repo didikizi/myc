@@ -1,0 +1,105 @@
+body{
+  background-color: darkgray;
+}
+.conter{
+    display: flex;
+    width: 1300px;
+    flex-wrap: wrap;
+    margin: auto;
+}
+img{
+  height: 120%;
+  width: 120%;
+
+
+}
+.fig{
+  display:inline-block;
+  width: 200px;
+     height: 200px;
+     border: 5px solid #515151;
+     overflow: hidden;
+   justify-content: center;
+   align-items: center;
+  margin: 20px;
+}
+#i1:hover{
+  height: 140%;
+  width: 140%;
+  transition: 1s;
+}
+#i2:hover{
+  height: 100%;
+  width: 100%;
+  transition: 1s;
+}
+#i3{
+  height: 100%;
+  width: 150%;
+}
+#i3:hover{
+margin-left: -100px;
+transition: 1s;
+}
+#i4{
+  height: 150%;
+  width:100%;
+}
+#i4:hover{
+margin-top:-100px;
+transition: 1s;
+}
+.f5:hover{
+  transform:rotate(-10deg);
+}
+.f6:hover{
+   border: 5px solid #515151 ;
+   transform:rotate(360deg);
+   border-radius: 50%;
+   transition: 1s;
+}
+#i7:hover{
+padding:0px 0px 0px 0px ;
+width:200% ;
+height: 200%;
+ transition: 1s;
+}
+.f7:hover {
+padding: 0;
+margin: 0;
+border: 25px solid #515151 ;
+ border-radius: 100%;
+ transition: 1s;
+}
+#i8:hover{
+filter: blur(10px) brightness(100%);
+ transition: 1s;
+}
+#i9:hover{
+filter: grayscale(100%);
+ transition: 1s;
+}
+#i10:hover{
+filter:brightness(200%);
+ transition: 1s;
+}
+#i11:hover{
+filter:sepia(150%);
+ transition: 1s;
+}
+#i12:hover{
+filter:contrast(200%);
+ transition: 1s;
+}
+#i13:hover{
+filter:hue-rotate(180deg);
+ transition: 1s;
+}
+#i14:hover{
+filter:invert(150%);
+ transition: 1s;
+}
+#i15:hover{
+filter:opacity(50%);
+ transition: 1s;
+}
